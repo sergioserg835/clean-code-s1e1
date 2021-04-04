@@ -32,7 +32,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .wrapper-new-task {
   display: flex;
@@ -118,7 +118,7 @@ li > label {
   width: 226px;
 }
 li >  input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .delete .remove-img {
   height: 2em;
@@ -138,13 +138,13 @@ li >  input[type="text"] {
 /* Edit Task */
 #completed-tasks li input[type=text],
 #incompleted-tasks li input[type=text]{
-  display :none
+  display: none;
 }
 
 #completed-tasks .edit-mode input[type=text],
 #incompleted-tasks .edit-mode input[type=text]{
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 #completed-tasks .edit-mode label,
